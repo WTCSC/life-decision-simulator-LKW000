@@ -13,7 +13,7 @@ if "goblin" in Q1:
     Q3_goblin = input("You came home, reflecting on the bad decision you had made. Do you ask the ugly Goblin for advice, or do you keep it to yourself?: ")
     if Q3_goblin == "yes" or "advice":
         print("You ask for an advice! you get the benefit of having a wise roommate! The end.")
-    elif Q3_goblin == "no":
+    elif Q3_goblin == "no" or "keep":
         print("You kept to yourself like a sulking loser and that mistake will haunt you for the rest of your life! the end.")
     else:
         print("Since you can't decide, you just wasted the goblin's time and he pities you! The end")
